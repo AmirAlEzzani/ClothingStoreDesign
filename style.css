@@ -1,0 +1,270 @@
+body {
+    background-color: white;
+    background-size: cover;
+    margin: 0px;
+    background-image: url("./assets/store.jpg");
+}
+
+/*-------TOOLBAR----------*/
+
+.toolBar {
+    width:100%;
+    height: 175px;
+    margin: 0px;
+    background-color: rgba(0,0,0,.6);
+    position: absolute;
+    z-index: 1;
+}
+
+.icon img {
+    width: 50px;
+    height: auto;
+    margin-top: 30px;
+    filter: invert();
+    position: absolute;
+    z-index: 3;
+    margin-left: 48.5%;
+}
+
+.customerService {
+    margin-left: 30px;
+    margin-top: 30px;
+    color: white;
+    z-index: 3;
+    position: fixed;
+    margin-right: 50px;
+}
+
+.discount {
+    margin-left: 175px;
+    margin-top: 30px;
+    color: white;
+    z-index: 3;
+    position: fixed;
+}
+
+.findStore {
+    margin-left: 340px;
+    margin-top: 30px;
+    color: white;
+    z-index: 3;
+    position: fixed;
+}
+
+.signIn {
+    position: relative;
+    float: right;
+    margin-top: 30px;
+    margin-right: 30px;
+    color: white;
+    z-index: 3;
+    
+}
+
+.favorites {
+    position: relative;
+    float: right;
+    margin-top: 30px;
+    margin-right: 30px;
+    color: white;
+    z-index: 3;
+}
+
+.shoppingBag {
+    position: relative;
+    float: right;
+    margin-top: 30px;
+    margin-right: 50px;
+    color: white;
+    z-index: 3;
+}
+
+/*--------NAVBAR---------*/
+
+.navigation {
+    margin-left: 37.9%;
+    margin-top: 130px;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    z-index: 3;
+    
+}
+
+.mensNav {
+    background-color: transparent;
+    display: inline-block;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 30px;
+}
+
+.womensNav {
+    background-color: transparent;
+    display: inline-block;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 30px;
+}
+
+.kidsNav {
+    background-color: transparent;
+    display: inline-block;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 30px;
+}
+
+.homeNav {
+    background-color: transparent;
+    display: inline-block;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 30px;
+    text-align: center;
+}
+
+.beautyNav {
+    background-color: transparent;
+    display: inline-block;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 30px;
+}
+
+.navSearchBar {
+    display: inline-block;
+    margin-left: 85%;
+    white-space: nowrap;
+    z-index: 3;
+    position: relative;
+    margin-top: 80px;
+}
+
+
+.sectionsButtons {
+    background-color: transparent;
+    display: inline-block;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 30px;
+}
+
+/*------FOOTER-----------*/
+
+.tiktokButton {
+    background-color: transparent;
+    display: inline-block;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.instagramButton {
+    background-color: transparent;
+    display: inline-block;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.facebookButton {
+    background-color: transparent;
+    display: inline-block;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.twitterButton {
+    background-color: transparent;
+    display: inline-block;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pinterestButton {
+    background-color: transparent;
+    display: inline-block;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.youtubeButton {
+    background-color: transparent;
+    display: inline-block;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.spotifyButton {
+    background-color: transparent;
+    display: inline-block;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.shareInfo {
+    background-color: transparent;
+    display: inline-block;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cookiePreferences {
+    background-color: transparent;
+    display: inline-block;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.privacyPolicy {
+    background-color: transparent;
+    display: inline-block;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.termsOfUse {
+    background-color: transparent;
+    display: inline-block;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#toggleButton {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 100px;
+    border: none;
+    perspective: 1000px; /* Set the perspective for the 3D transformation */
+    margin-left:50%;
+    transform: translateX(-50%);
+    margin-top: 660px;
+}
+
+#toggleButton img {
+    transition: transform 0.3s ease-in-out;
+    height:40px;
+    margin-top: 3px;
+}
+
+#toggleButton.flip img {
+    transform: rotateX(180deg); /* Apply the flip along the x-axis */
+}
+
+.collapsible {
+    position: fixed;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.5);
+    transition: bottom 0.5s ease-in-out;
+}
+
+.collapsible-content {
+    padding: 20px;
+}
+
+.collapsible.open {
+    bottom: 0;
+}
